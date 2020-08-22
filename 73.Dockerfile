@@ -1,6 +1,6 @@
 FROM php:7.3-apache
 
-RUN apt-get update
+RUN apt-get update -y
 
 # 1. development packages
 RUN apt-get install -y \
