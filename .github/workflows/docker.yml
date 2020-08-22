@@ -16,4 +16,3 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: itshaydendev/php7-laravel
           dockerfile: 73.Dockerfile
-          tag: php73-apache
